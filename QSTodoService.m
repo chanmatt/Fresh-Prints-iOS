@@ -112,7 +112,7 @@
     
     // Set the item to be complete (we need a mutable copy)
     NSMutableDictionary *mutable = [item mutableCopy];
-    [mutable setObject:@"verifysuccess" forKey:@"text"];
+    [mutable setObject:@"verifysuccessswag#" forKey:@"text"];
     
     // Replace the original in the items array
     NSUInteger index = [items indexOfObjectIdenticalTo:item];
