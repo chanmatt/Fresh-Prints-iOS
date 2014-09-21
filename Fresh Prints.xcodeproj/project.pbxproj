@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F82669AE19CDDCD200E4A649 /* freshprintsfail.png in Resources */ = {isa = PBXBuildFile; fileRef = F82669AD19CDDCD200E4A649 /* freshprintsfail.png */; };
+		F8ACD26019CE6B1300F77921 /* WindowsAzureMobileServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8ACD25F19CE6B1300F77921 /* WindowsAzureMobileServices.framework */; };
+		F8ACD26319CE6B2600F77921 /* QSTodoService.m in Sources */ = {isa = PBXBuildFile; fileRef = F8ACD26219CE6B2600F77921 /* QSTodoService.m */; };
+		F8ACD26519CE6D5900F77921 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8ACD26419CE6D5900F77921 /* UIKit.framework */; };
+		F8ACD26719CE6D6900F77921 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8ACD26619CE6D6900F77921 /* Foundation.framework */; };
 		F8D6A8F619CDD1FB007AAA12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D6A8F519CDD1FB007AAA12 /* main.m */; };
 		F8D6A8F919CDD1FB007AAA12 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D6A8F819CDD1FB007AAA12 /* AppDelegate.m */; };
 		F8D6A8FC19CDD1FB007AAA12 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D6A8FB19CDD1FB007AAA12 /* ViewController.m */; };
@@ -14,6 +19,8 @@
 		F8D6A90119CDD1FB007AAA12 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8D6A90019CDD1FB007AAA12 /* Images.xcassets */; };
 		F8D6A90419CDD1FB007AAA12 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8D6A90219CDD1FB007AAA12 /* LaunchScreen.xib */; };
 		F8D6A91019CDD1FB007AAA12 /* Fresh_PrintsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D6A90F19CDD1FB007AAA12 /* Fresh_PrintsTests.m */; };
+		F8D6A91A19CDD6E6007AAA12 /* freshprintsbg.png in Resources */ = {isa = PBXBuildFile; fileRef = F8D6A91919CDD6E6007AAA12 /* freshprintsbg.png */; };
+		F8D6A91C19CDD8D4007AAA12 /* freshprintssuccess.png in Resources */ = {isa = PBXBuildFile; fileRef = F8D6A91B19CDD8D4007AAA12 /* freshprintssuccess.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +34,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F82669AD19CDDCD200E4A649 /* freshprintsfail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = freshprintsfail.png; path = ../../freshprintsfail.png; sourceTree = "<group>"; };
+		F8ACD25F19CE6B1300F77921 /* WindowsAzureMobileServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WindowsAzureMobileServices.framework; sourceTree = SOURCE_ROOT; };
+		F8ACD26119CE6B2600F77921 /* QSTodoService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSTodoService.h; sourceTree = SOURCE_ROOT; };
+		F8ACD26219CE6B2600F77921 /* QSTodoService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSTodoService.m; sourceTree = SOURCE_ROOT; };
+		F8ACD26419CE6D5900F77921 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F8ACD26619CE6D6900F77921 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F8D6A8F019CDD1FB007AAA12 /* Fresh Prints.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fresh Prints.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8D6A8F419CDD1FB007AAA12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8D6A8F519CDD1FB007AAA12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +53,8 @@
 		F8D6A90919CDD1FB007AAA12 /* Fresh PrintsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fresh PrintsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8D6A90E19CDD1FB007AAA12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8D6A90F19CDD1FB007AAA12 /* Fresh_PrintsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fresh_PrintsTests.m; sourceTree = "<group>"; };
+		F8D6A91919CDD6E6007AAA12 /* freshprintsbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = freshprintsbg.png; path = ../../freshprintsbg.png; sourceTree = "<group>"; };
+		F8D6A91B19CDD8D4007AAA12 /* freshprintssuccess.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = freshprintssuccess.png; path = ../../freshprintssuccess.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +62,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8ACD26719CE6D6900F77921 /* Foundation.framework in Frameworks */,
+				F8ACD26519CE6D5900F77921 /* UIKit.framework in Frameworks */,
+				F8ACD26019CE6B1300F77921 /* WindowsAzureMobileServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +81,8 @@
 		F8D6A8E719CDD1FB007AAA12 = {
 			isa = PBXGroup;
 			children = (
+				F8ACD26619CE6D6900F77921 /* Foundation.framework */,
+				F8ACD26419CE6D5900F77921 /* UIKit.framework */,
 				F8D6A8F219CDD1FB007AAA12 /* Fresh Prints */,
 				F8D6A90C19CDD1FB007AAA12 /* Fresh PrintsTests */,
 				F8D6A8F119CDD1FB007AAA12 /* Products */,
@@ -83,11 +103,16 @@
 			children = (
 				F8D6A8F719CDD1FB007AAA12 /* AppDelegate.h */,
 				F8D6A8F819CDD1FB007AAA12 /* AppDelegate.m */,
+				F8ACD26119CE6B2600F77921 /* QSTodoService.h */,
+				F8ACD26219CE6B2600F77921 /* QSTodoService.m */,
 				F8D6A8FA19CDD1FB007AAA12 /* ViewController.h */,
 				F8D6A8FB19CDD1FB007AAA12 /* ViewController.m */,
 				F8D6A8FD19CDD1FB007AAA12 /* Main.storyboard */,
 				F8D6A90019CDD1FB007AAA12 /* Images.xcassets */,
 				F8D6A90219CDD1FB007AAA12 /* LaunchScreen.xib */,
+				F8D6A91B19CDD8D4007AAA12 /* freshprintssuccess.png */,
+				F82669AD19CDDCD200E4A649 /* freshprintsfail.png */,
+				F8D6A91919CDD6E6007AAA12 /* freshprintsbg.png */,
 				F8D6A8F319CDD1FB007AAA12 /* Supporting Files */,
 			);
 			path = "Fresh Prints";
@@ -96,6 +121,7 @@
 		F8D6A8F319CDD1FB007AAA12 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F8ACD25F19CE6B1300F77921 /* WindowsAzureMobileServices.framework */,
 				F8D6A8F419CDD1FB007AAA12 /* Info.plist */,
 				F8D6A8F519CDD1FB007AAA12 /* main.m */,
 			);
@@ -168,6 +194,7 @@
 				TargetAttributes = {
 					F8D6A8EF19CDD1FB007AAA12 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = YL4X2AVT95;
 					};
 					F8D6A90819CDD1FB007AAA12 = {
 						CreatedOnToolsVersion = 6.1;
@@ -200,7 +227,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8D6A8FF19CDD1FB007AAA12 /* Main.storyboard in Resources */,
+				F8D6A91A19CDD6E6007AAA12 /* freshprintsbg.png in Resources */,
+				F82669AE19CDDCD200E4A649 /* freshprintsfail.png in Resources */,
 				F8D6A90419CDD1FB007AAA12 /* LaunchScreen.xib in Resources */,
+				F8D6A91C19CDD8D4007AAA12 /* freshprintssuccess.png in Resources */,
 				F8D6A90119CDD1FB007AAA12 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8D6A8FC19CDD1FB007AAA12 /* ViewController.m in Sources */,
+				F8ACD26319CE6B2600F77921 /* QSTodoService.m in Sources */,
 				F8D6A8F919CDD1FB007AAA12 /* AppDelegate.m in Sources */,
 				F8D6A8F619CDD1FB007AAA12 /* main.m in Sources */,
 			);
@@ -343,9 +374,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Fresh Prints/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -353,9 +391,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Fresh Prints/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -412,6 +457,7 @@
 				F8D6A91519CDD1FB007AAA12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F8D6A91619CDD1FB007AAA12 /* Build configuration list for PBXNativeTarget "Fresh PrintsTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +466,7 @@
 				F8D6A91819CDD1FB007AAA12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
