@@ -73,7 +73,7 @@
                                         NSDictionary *item = [self.todoService.items objectAtIndex:0];
                                         [self.todoService completeItemGood:item completion:^(NSUInteger index)
                                          {
-                                             self.checkingTimer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(checkCloud) userInfo:nil repeats:NO];
+                                             self.checkingTimer = [NSTimer scheduledTimerWithTimeInterval:0.5 target:self selector:@selector(checkCloud) userInfo:nil repeats:NO];
                                          }];
                                     });
                                     NSLog(@"User is authenticated successfully");
@@ -112,7 +112,7 @@
                                         NSDictionary *item = [self.todoService.items objectAtIndex:0];
                                         [self.todoService completeItemBad:item completion:^(NSUInteger index)
                                          {
-                                             self.checkingTimer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(checkCloud) userInfo:nil repeats:NO];
+                                             self.checkingTimer = [NSTimer scheduledTimerWithTimeInterval:0.5 target:self selector:@selector(checkCloud) userInfo:nil repeats:NO];
                                          }];
                                     });
                                     NSLog(@"Authentication Fails");
@@ -135,7 +135,7 @@
         self.checkingTimer = nil;
         [self.todoService refreshDataOnSuccess:^
          {
-             self.checkingTimer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(checkCloud) userInfo:nil repeats:NO];
+             self.checkingTimer = [NSTimer scheduledTimerWithTimeInterval:0.5 target:self selector:@selector(checkCloud) userInfo:nil repeats:NO];
          }];
     }
 }
